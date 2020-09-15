@@ -1,0 +1,67 @@
+
+.map {
+    height: 81vh;
+  }
+  
+  @media (max-width: 768px) {
+    .map {
+      height: 65vh;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .text-shrink
+      {
+          font-size: 65%;
+      }
+  }
+  
+  @media (max-width: 520px) {
+    .text-shrink
+      {
+          font-size: 50%;
+      }
+  }
+  
+  @media (max-width: 410px) {
+    .text-shrink
+      {
+          font-size: 30%;
+      }
+  }
+  
+  @media (max-width: 1000px) {
+    .text-shrink-more
+      {
+          font-size: 80%;
+      }
+  }
+  @media (max-width: 800px) {
+    .text-shrink-more
+      {
+          font-size: 65%;
+      }
+  }
+  @media (max-width: 600px) {
+    .text-shrink-more
+      {
+          font-size: 50%;
+      }
+  }
+  @media (max-width: 500px) {
+    .text-shrink-more
+      {
+          font-size: 30%;
+      }
+  }
+  
+  .text-material{
+    background-color: orange ;
+    color: white;
+  }
+
+  .text-service{
+    background-color: grey ;
+    color: white;
+  }
+  
