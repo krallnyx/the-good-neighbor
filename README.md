@@ -92,12 +92,15 @@ The project will give you an opportunity to work technically with roles and soci
 The behavioral specifications for this project are hefty! Take your time to read through the requirements multiple times and to reflect longer on anything that doesn't make sense at first glance.
 
 **Functionality**
+
 **Accounts**
+
 A user must be able to sign up. They can create an account with their first name, last name, email address, and an upload button to submit a copy of a government-approved ID (approved formats: .jpg, .png, .pdf).
 
 You do not need to worry about validating that an ID is government-issued or not. You only need to make sure that there is an upload functionality when creating an account and that it accepts the correct file formats.
 
 **Volunteering to help**
+
 Once signed in, all users see a map (via the Google Maps API with the map geolocalized reasonably to the user's current location) with markers on it indicating people in need of community help.
 
 The markers should be colored differently for two different kinds of needs: one-time tasks (i.e., to help carry a piece of heavy furniture) or for a material need (i.e., a homeless woman on your street who needs a blanket for winter).
@@ -115,6 +118,7 @@ Once 5 separate users have clicked on the fulfillment button and sent messages t
 What if 1 of the 5 users doesn't actually fulfill the help request, though? If, within 24 hours, the request still hasn't been marked as fulfilled, the requester can republish it. However, if either party marks the request as fulfilled (a status associated with the request that either the requester or volunteer can modify), it cannot be republished.
 
 **Submitting a request**
+
 There should also be a button visible on the website allowing users to submit a request for help. You already saw the elements of a request above: there should be a brief description (300 characters max), a type of request (one-time tasks or material needs, as mentioned above), and a location (as a set of latitude and longitude coordinates). There is also a status of fulfilled or unfulfilled associated with the request, although by default, it is unfulfilled.
 
 Each request has multiple parties associated with it: it should have one requester and one-or-more responders.
@@ -122,6 +126,7 @@ Each request has multiple parties associated with it: it should have one request
 You can choose the exact terminology to use in your database tables and are not obligated to stick with "requester," for example.
 
 **Counter**
+
 There should be a counter for the number of unfulfilled help requests displayed on the homepage. This number should update every few seconds -- without reloading the page.
 
 Are you feeling like you're on specification overload? So many requirements! Get out your pen and paper, and just start drawing some wireframes.
@@ -131,11 +136,13 @@ You'll often work on projects where you have a sense of how things should work a
 You can also diagram in UML to map out your data structures if necessary.
 
 **Technicalities**
+
 You'll begin by creating a website the way you're used to doing so at this point: by using Ruby on Rails to get yourself up and running quickly with a robust codebase. Your project must also use React for the front-end. You must also write tests for your code.
 
 You must deploy your website live on the web. How you choose to do so is up to you.
 
 **Mobile and tablets**
+
 You should include style rules that take into account mobile and tablet views, consolidating content in a more pleasant way on these screen sizes.
 
 
