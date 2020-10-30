@@ -43,6 +43,7 @@
 
   <p align="center">
     The Good Neighbor is a free Aid platform for any neighborhood
+    <a href="https://github.com/krallnyx/the-good-neighborAPI"><strong>This is the FrontEnd only, the BackEnd is in this repo, in Rails</strong></a>
     <br />
     <a href="https://github.com/krallnyx/the-good-neighbor"><strong>Explore the docs »</strong></a>
     <br />
