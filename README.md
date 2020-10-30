@@ -93,7 +93,7 @@ The project will give you an opportunity to work technically with roles and soci
 
 The behavioral specifications for this project are hefty! Take your time to read through the requirements multiple times and to reflect longer on anything that doesn't make sense at first glance.
 
-**Functionality**
+## **Functionality**
 
 **Accounts**
 
@@ -130,8 +130,6 @@ You can choose the exact terminology to use in your database tables and are not 
 **Counter**
 
 There should be a counter for the number of unfulfilled help requests displayed on the homepage. This number should update every few seconds -- without reloading the page.
-
-Are you feeling like you're on specification overload? So many requirements! Get out your pen and paper, and just start drawing some wireframes.
 
 You'll often work on projects where you have a sense of how things should work and what you want. It's harder to see how it all pieces together though. Basic wireframing is an invaluable skill for developers, even if you have designers helping you out on a project. 
 
