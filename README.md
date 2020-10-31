@@ -147,7 +147,7 @@ You should include style rules that take into account mobile and tablet views, c
 
 
 
-### Built With
+## Built With
 
 * React
 * Google Maps API
